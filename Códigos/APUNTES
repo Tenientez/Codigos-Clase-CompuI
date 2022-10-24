@@ -1,0 +1,8 @@
+-Swich and case. Es como if y else, pero par menor complejidad. Todo estro va dentro de un WHILE.
+  swich (variable);
+  case 'A':
+  case 'B':
+  break; //rompe cualquier operación o ciclo en el que se define ......  continue; //omite la condición que se cumple
+  
+  
+  
