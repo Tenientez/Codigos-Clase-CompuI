@@ -1,8 +1,9 @@
--Swich and case. Es como if y else, pero par menor complejidad. Todo estro va dentro de un WHILE.
-  swich (variable);
-  case 'A':
-  case 'B':
-  break; //rompe cualquier operación o ciclo en el que se define ......  continue; //omite la condición que se cumple
-  
-  
+#Vectores
+Nos permiten ir insertando "arreglos" sin ponernos un límite, por eso es mejor que los arreglos en algunas circunstrancias. [Estructura dinámica]
+- vec.push.back = permite añadir al final de la colección un nuevo dato. 
+- vec.pov.back = permiteeliminar un elemento
+
+#Apuntadores
+Variable que guarda una referencia (posición fija de la memoria).
+ "*" dice que es un apuntador (int *cuenta, cuenta)
   
