@@ -6,4 +6,18 @@ Nos permiten ir insertando "arreglos" sin ponernos un límite, por eso es mejor 
 #Apuntadores
 Variable que guarda una referencia (posición fija de la memoria).
  "*" dice que es un apuntador (int *cuenta, cuenta)
-  
+ 
+ #Constructor y Destructor
+ Constructor para poner variables y Destructor para quitarlas (se debe destruir para quitarlos de la memoria).
+ Se pone "delete" con "~" + "la clase" para destructor
+ 
+ #Operador ternario
+ Hace lo mismo que if and else, comparacón. Solo es util cuando solo tenemos unas pocas variables 
+ ejemplo: (n1 > n2) ? n1 : n2;
+ 
+#Manejo de excepciones (try/cach)
+Errores que se manejan en tiempo de ejecución
+"throw" para invalidar
+
+#This 
+se usa para evitar conflitos en los apuntadores
