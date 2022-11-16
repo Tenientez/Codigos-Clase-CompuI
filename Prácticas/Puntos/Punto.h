@@ -3,7 +3,7 @@
 //
 
 #include <array>
-#include <cmath>
+#include <math.h>
 #ifndef PUNTOS_PUNTO_H
 #define PUNTOS_PUNTO_H
 
