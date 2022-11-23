@@ -73,4 +73,24 @@ template <typename grupos>
 int CalcularCargaApH(float& ph, grupos todosGrupos)
 {
     //TODO
+    int cargaTotal = 0;
+    for (int i=0; i<4;i++){
+        if (ph <= todosGrupos[i].getpK()){
+            cargaTotal = cargaTotal + (todosGrupos[i].getCarga() + 1);
+        }
+        else cargaTotal = cargaTotal + todosGrupos[i].getCarga();
+    }
+    return cargaTotal;
+    /*if (ph>=10.54){
+        cout << "Carga de la molecula = " << -1 << endl;
+    }
+    if (ph>=9.06 && ph<10.54){
+        cout << "Carga de la molecula = " << 0 << endl;
+    }
+    if (ph>=2.16 && ph<9.06){
+        cout << "Carga de la molecula = " << +1 << endl;
+    }
+    if (ph<=2.16){
+        cout << "Carga de la molecula = " << +2 << endl;
+    }*/
 }
